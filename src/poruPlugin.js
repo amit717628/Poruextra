@@ -2,6 +2,7 @@ const axios = require("axios");
 const poru = require("poru");
 class poruPlugin{
 
+
 // I'm Using Rapid API to get data from the source , You can make 10 requests per minute 
 // It may take some time to get your result, Api is slow
     async search(query,type){
@@ -33,3 +34,10 @@ class poruPlugin{
 
 
 module.exports = poruPlugin;
+
+/**
+ * These Project is under development.
+ * These is not the officical plugin.
+ * These is only for private use.
+ * More features will be updated soon.
+ */

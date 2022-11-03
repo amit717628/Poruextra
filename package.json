@@ -2,5 +2,26 @@
   "dependencies": {
     "axios": "^1.1.3",
     "express": "^4.18.2"
-  }
+  },
+  "name": "poruextra",
+  "description": "![Logo](https://user-images.githubusercontent.com/72643921/194241973-c7464cb1-3e4e-47e8-b74d-57ce35234fae.png)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AAYAN717628/Poruextra.git"
+  },
+  "keywords": [
+    "poruplugin"
+  ],
+  "author": "AAYAN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AAYAN717628/Poruextrassues"
+  },
+  "homepage": "https://github.com/AAYAN717628/Poruextra#readme"
 }
