@@ -1,56 +1,73 @@
 
-![Logo](https://user-images.githubusercontent.com/72643921/194241973-c7464cb1-3e4e-47e8-b74d-57ce35234fae.png)
+# PoruExtra
 
-A smart alexa home skill which can help you to control your smart home devices with smart better user interface , It can also help you to get in these :
-
-
+These is a easy to use searcher plugin for [Poru](https://github.com/parasop/poru) lavalink client .
 
 
 
 
-- Todo
-- Smart Greet
-- Homework Helper
-- Weather Tracker 
-- Traffic Traker 
-- Festival Tracker
-- Movie Finder
-- Food Finder
-- Music Finder
-- Moon Tracker 
-- Phone Contact Manager
-- Find Your Phone
-- Sync To All Device
-- Flight Tracker
-Much more ..
+## Features
+
+- Support 8 sources
+- 3 Search Type
+- Time & Id & Image Support
+- Easy to use 
+- Free to use in any client
 
 
 
-## Usage/Examples
+## Installation
 
+
+```bash
+  npm install poruextra
+```
+or
+```bash
+npm install AAYAN717628/Poruextra.git
+```
 ```js
-User : Alexa Open IRIS 
-Alexa : Welcome To IRIS ! How can i help You ?
-User : Show Me The Help Menu ! 
-Alexa : It will so you the commands menu and how to use it
+const poruPlugin = require("poruextra");
+const poruPlugins = new poruPlugin()
+const search = poruPlugins.Search("mere safar","track").then(response => {
+    console.log(response)
+})
 ```
 
+    
+## Example
 
-## Tech Stack
+```js
+// SEARCHING TRACK
+const poruPlugin = require("poruextra");
+ const poruPlugins = new poruPlugin()
+  poruPlugins.Search("mere safar","track").then(response => {
+    console.log(response)
+ })
+```
 
-**API** : **NODE.JS & EXPRESS.JS**
+```js
+const poruPlugin = require("poruextra");
+ const poruPlugins = new poruPlugin()
+  poruPlugins.Search("raftar","artist").then(response => {
+    console.log(response)
+ })
+ ```
 
-**AI** : **JAVASCRIPT & NODE.JS & BRAIN.JS**
+ ```js
+ const poruPlugin = require("poruextra");
+ const poruPlugins = new poruPlugin()
+  poruPlugins.Search("love","album").then(response => {
+    console.log(response)
+ })
+ ```
 
-**HOSTED AT :** **AMAZON AWS**
+
+ 
+
 
 
 ## Authors
 
 - [@AAYAN](https://www.github.com/AAYAN717628)
-
-
-## Support
-
-For support, email totalfunpvt@gmail.com .
 
